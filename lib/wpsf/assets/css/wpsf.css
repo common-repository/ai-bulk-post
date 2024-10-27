@@ -1,0 +1,3 @@
+.wpsf-settings-form-page:not(.active){
+    display: none;
+}

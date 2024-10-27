@@ -1,0 +1,13 @@
+// $ai-bulk-post--color-black: #080708;
+// $ai-bulk-post--color-blue: #3772FF;
+$ai-bulk-post--color-red: #DF2935;
+// $ai-bulk-post--color-yellow: #FDCA40;
+// $ai-bulk-post--color-gray: #E6E8E6;
+
+@import 'jquery-confirm/dist/jquery-confirm.min';
+@import 'modal';
+@import 'form';
+
+.ai-bulk-post--events{
+    margin-top: 24px;
+}

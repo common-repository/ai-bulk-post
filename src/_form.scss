@@ -1,0 +1,42 @@
+.ai-bulk-post-form{
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    .form-field{
+        &.row{
+            display: flex;
+            gap: 30px;
+            .form-field{
+                width: 100%;
+            }
+        }
+        &.checklist{
+            li{
+                list-style-type: none;
+            }
+        }
+        label{
+            display: block;
+            margin-bottom: 12px;
+            &.error{
+                color: $ai-bulk-post--color-red;
+                margin-top: 12px;
+            }
+            &.inline{
+                display: inline;
+                margin-right: 6px;
+                vertical-align: baseline;
+            }
+            &:not(.inline,.checklist){
+                font-weight: 500;
+            }
+        }
+        input:not([type="checkbox"],[type="radio"]), textarea, select{
+            margin: 0;
+            padding: 4px 8px;
+            border: 1px solid #ddd;
+            width: 100%;
+            max-width: 100%;
+        }
+    }
+}

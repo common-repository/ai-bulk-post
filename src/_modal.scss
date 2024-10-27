@@ -1,0 +1,36 @@
+.jconfirm.jconfirm-aibp {
+    .jconfirm-bg {
+        background: rgba(0,0,0,0.75);
+        z-index: -999;
+    }
+    .jconfirm-box {
+        width: 780px;
+        padding: 30px;
+      &.loading {
+        &:before {
+        }
+        &:after {
+        }
+      }
+      div.jconfirm-closeIcon {
+      }
+      div.jconfirm-title-c {
+      }
+      div.jconfirm-content-pane {
+      }
+      div.jconfirm-content {
+        padding: 1px;
+        &:empty {
+        }
+      }
+      .jconfirm-buttons {
+        padding: 0;
+        button {
+        }
+        button + button {
+        }
+      }
+      &.hilight {
+      }
+    }
+  }
